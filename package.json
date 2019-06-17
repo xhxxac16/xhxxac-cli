@@ -1,0 +1,28 @@
+{
+  "name": "xhxxac-cli",
+  "version": "1.0.0",
+  "description": "xhxxac-cli",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "log-update": "^3.2.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "create-project": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhxxac16/xhxxac-cli.git"
+  },
+  "author": "Amanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhxxac16/xhxxac-cli/issues"
+  },
+  "homepage": "https://github.com/xhxxac16/xhxxac-cli#readme"
+}
