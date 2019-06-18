@@ -21,7 +21,7 @@ program
    const frames = ['-', '\\', '|', '/'];
    const interval = setInterval(() => {
     const frame = frames[i = ++i % frames.length];
-    logUpdate(`👉 👉 ${frame} initializing `);
+    logUpdate(` ${frame} initializing `);
    }, 50)
    shell.exec('git pull git@github.com:xhxxac16/work-temp.git', (code) => {
      clearInterval(interval);
@@ -29,6 +29,6 @@ program
        console.log('Error! Try again');
        shell.exit(1);
      }
-     console.log('👏 👏 Completed! You are  good to go!');
+     console.log('Completed! You are  good to go!');
    })
  }
